@@ -60,7 +60,7 @@ left it (taks are checked, they remain on the screen, etc.)
 function updateLocalStorage(){
     const liEls = document.querySelectorAll("li");
     list = [];
-    liEls.forEach(liEl=>{
+    liEls.forEach(liEl=>{ //when the tasks are selected (they will be under the "li" class), they will be pushed to the browsers local storage
         list.push({
             name: liEl.innerText,
             checked: liEl.classList.contains("checked")
