@@ -16,6 +16,11 @@ button{
     color: white;
 }
 
+button:hover{
+    background-color: lightblue;
+    color: black;
+}
+
 
 body{
     margin: 0;
